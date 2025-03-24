@@ -147,6 +147,7 @@ mod errors;
 mod gauge;
 mod histogram;
 mod metrics;
+mod multiprocess;
 mod nohash;
 mod pulling_gauge;
 #[cfg(feature = "push")]
